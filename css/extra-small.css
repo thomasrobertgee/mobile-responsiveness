@@ -1,6 +1,6 @@
 @media (min-width:320px) and (max-width:453px)  { /* smartphones, iPhone, portrait 480x320 phones */
   #xxs { display: none }
-  #xs { display: block }
+  #xs { display: none }
   #s { display: none }
   #m { display: none }
   #l { display: none }
