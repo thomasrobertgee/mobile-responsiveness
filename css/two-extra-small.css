@@ -19,6 +19,7 @@
   }
 
   .header-hamburger {
+    /*display: none;*/
     padding-top: 3vh;
     padding-left: 83vw;
     position: absolute;
@@ -62,13 +63,19 @@
     display: none;
   }
 
-  .about section {
-    /*background-color: lightblue;*/
-    /*border: 1px dashed darkblue;*/
+  .about {
+    text-align: center;
   }
 
-  .about h1 {
+  .expertise {
     text-align: center;
+  }
+
+  .blog {
+    text-align: center;
+  }
+
+  .work {
   }
 
   .card {
@@ -93,22 +100,6 @@
     padding: 2px 16px;
   }
 
-  .expertise section {
-
-  }
-
-  .expertise h1{
-    text-align: center;
-  }
-
-  .blog h1 {
-    text-align: center;
-  }
-
-  .work h1 {
-    text-align: center;
-  }
-
   .sidenav {
     /*border: 1px solid black;*/
     width: 40vw;
@@ -129,6 +120,8 @@
     font-size: 7vw;
     display: block;
     transition: 0.3s;
+    letter-spacing: 3px;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .sidenav a:hover {
@@ -158,7 +151,7 @@
     min-height: 30px;
     width: 40vw;
     text-align: center;
-    color: #40e0d0
+    color: #40e0d0;
   }
 
   .contact-button button:hover {
@@ -176,7 +169,6 @@
   /* ========== footer ========== */
 
   .footer {
-    position: relative;
     background-color: #40E0D0;
     height: 92vh;
   }
