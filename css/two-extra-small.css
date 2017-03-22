@@ -8,7 +8,6 @@
   #xxl { display: none }
 
   .mobile-landing {
-    /*border: 1px solid red;*/
     height: 100vh;
   }
 
@@ -17,6 +16,20 @@
     height: 10vh;
     width: 10vw;
     display: none;
+  }
+
+  .header-hamburger {
+    padding-top: 3vh;
+    padding-left: 83vw;
+    position: absolute;
+  }
+
+  .header-hamburger-line {
+    height: 2vw;
+    width: 13vw;
+    background-color: #40e0d0;
+    border-radius: 5px;
+    margin-bottom: 1vh;
   }
 
   .content {
@@ -33,7 +46,7 @@
 
   .home h1 {
     font-size: 10vh;
-    color: #40e0d0
+    color: #40e0d0;
   }
 
   .home h4 {
@@ -99,7 +112,7 @@
   .sidenav {
     /*border: 1px solid black;*/
     width: 40vw;
-    padding-top: 40vh;
+    padding-top: 30vh;
     padding-left: 30vw;
     padding-right: 30vw;
     display: flex;
@@ -107,7 +120,6 @@
     align-items: center;
     position: absolute;
     z-index: 1;
-    top: 0;
   }
 
   .sidenav a {
@@ -133,7 +145,7 @@
     width: 40vw;
     padding-left: 30vw;
     padding-right: 30vw;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
   }
 
   .contact-button button {
@@ -167,6 +179,20 @@
     position: relative;
     background-color: #40E0D0;
     height: 92vh;
+  }
+
+  .footer-hamburger {
+    padding-top: 3vh;
+    padding-left: 83vw;
+    position: absolute;
+  }
+
+  .footer-hamburger-line {
+    height: 2vw;
+    width: 13vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1vh;
   }
 
   .row-1 {
@@ -220,7 +246,6 @@
   .row-3 {
     position: relative;
     display: inline-block;
-    top: -60;
     text-align: center;
   }
 

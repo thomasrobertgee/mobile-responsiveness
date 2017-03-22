@@ -1,6 +1,6 @@
 @media (min-width:320px) and (max-width:453px)  { /* smartphones, iPhone, portrait 480x320 phones */
   #xxs { display: none }
-  #xs { display: none }
+  #xs { display: block }
   #s { display: none }
   #m { display: none }
   #l { display: none }
@@ -8,7 +8,6 @@
   #xxl { display: none }
 
   .mobile-landing {
-    /*border: 1px solid red;*/
     height: 100vh;
   }
 
@@ -17,6 +16,21 @@
     height: 10vh;
     width: 10vw;
     display: none;
+  }
+
+  .header-hamburger {
+    display: none;
+    padding-top: 3vh;
+    padding-left: 83vw;
+    position: absolute;
+  }
+
+  .header-hamburger-line {
+    height: 2vw;
+    width: 13vw;
+    background-color: #40e0d0;
+    border-radius: 5px;
+    margin-bottom: 1vh;
   }
 
   .content {
@@ -33,7 +47,7 @@
 
   .home h1 {
     font-size: 10vh;
-    color: #40e0d0
+    color: #40e0d0;
   }
 
   .home h4 {
@@ -116,6 +130,8 @@
     font-size: 7vw;
     display: block;
     transition: 0.3s;
+    letter-spacing: 3px;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .sidenav a:hover {
@@ -145,7 +161,7 @@
     min-height: 30px;
     width: 40vw;
     text-align: center;
-    color: #40e0d0
+    color: #40e0d0;
   }
 
   .contact-button button:hover {
@@ -166,6 +182,20 @@
     position: relative;
     background-color: #40E0D0;
     height: 92vh;
+  }
+
+  .footer-hamburger {
+    padding-top: 3vh;
+    padding-left: 83vw;
+    position: absolute;
+  }
+
+  .footer-hamburger-line {
+    height: 2vw;
+    width: 13vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1vh;
   }
 
   .row-1 {
