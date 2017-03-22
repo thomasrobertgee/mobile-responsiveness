@@ -19,7 +19,7 @@
   }
 
   .header-hamburger {
-    display: none;
+    /*display: none;*/
     padding-top: 3vh;
     padding-left: 83vw;
     position: absolute;
@@ -63,13 +63,19 @@
     display: none;
   }
 
-  .about section {
-    /*background-color: lightblue;*/
-    /*border: 1px dashed darkblue;*/
+  .about {
+    text-align: center;
   }
 
-  .about h1 {
+  .expertise {
     text-align: center;
+  }
+
+  .blog {
+    text-align: center;
+  }
+
+  .work {
   }
 
   .card {
@@ -92,22 +98,6 @@
 
   .card .container {
     padding: 2px 16px;
-  }
-
-  .expertise section {
-
-  }
-
-  .expertise h1{
-    text-align: center;
-  }
-
-  .blog h1 {
-    text-align: center;
-  }
-
-  .work h1 {
-    text-align: center;
   }
 
   .sidenav {
@@ -179,7 +169,6 @@
   /* ========== footer ========== */
 
   .footer {
-    position: relative;
     background-color: #40E0D0;
     height: 92vh;
   }
