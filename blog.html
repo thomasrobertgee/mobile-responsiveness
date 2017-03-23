@@ -10,9 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,500i,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
-    <script src="js/script.js">
-
-    </script>
+    <script src="js/script.js"></script>
+    <script src="js/smooth-scroll.js"></script>
   </head>
   <body>
 
@@ -24,38 +23,33 @@
         </a>
       </div>
 
-      <div id="mySidebar" class="sidenav">
+      <header class="nav-down" id="mySidebar">
         <a href="about.html">About</a>
         <a href="expertise.html">Process</a>
         <a href="work.html">Work</a>
         <a href="blog.html">Blog</a>
-      </div>
+      </header>
 
       <div class="blog">
 
-        <div class="header-hamburger">
-          <div class="header-hamburger-line"></div>
-          <div class="header-hamburger-line"></div>
-          <div class="header-hamburger-line"></div>
-        </div>
-
         <h1>Blog</h1>
         <p>blog content</p>
-      </div>
 
-      <div class="contact-button">
-        <div id="xxs">two extra small</div>
-        <div id="xs">extra small</div>
-        <div id="s">small</div>
-        <div id="m">medium</div>
-        <div id="l">large</div>
-        <div id="xl">extra large</div>
-        <div id="xxl">two extra large</div>
-        <a href="#footer-link">
-          <button >
-            contact
-          </button>
-        </a>
+        <div class="contact-button">
+          <div id="xxs">two extra small</div>
+          <div id="xs">extra small</div>
+          <div id="s">small</div>
+          <div id="m">medium</div>
+          <div id="l">large</div>
+          <div id="xl">extra large</div>
+          <div id="xxl">two extra large</div>
+          <a data-scroll href="#footer-link">
+            <button >
+              contact
+            </button>
+          </a>
+        </div>
+
       </div>
 
     </div>
@@ -64,13 +58,6 @@
 <!-- Footer -->
 
     <div class="footer" id="footer-link">
-        <div class="footer-hamburger">
-          <a href="#mobile-landing">
-            <div class="footer-hamburger-line"></div>
-            <div class="footer-hamburger-line"></div>
-            <div class="footer-hamburger-line"></div>
-          </a>
-        </div>
 
       <div class="row-1">
         <ul>
@@ -114,7 +101,7 @@
           <div class="form-right">
             <textarea id="input-message-text" type="text" name="message-text" required="required" placeholder="Tell us a bit about yourself and what we can do for you.." ></textarea>
             <br>
-            <button type="button" class="form-button">s e n d</button>
+            <button type="button" class="button">s e n d</button>
           </div>
         </form>
       </div>
@@ -138,6 +125,10 @@
       </div>
     </div>
 <!-- End footer -->
+
+    <script>
+      smoothScroll.init();
+    </script>
 
   </body>
 </html>

@@ -42,8 +42,6 @@
 
   .about {
     position: absolute;
-    /*overflow: auto;*/
-    /*-webkit-overflow-scrolling: touch;*/
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -54,58 +52,54 @@
   }
 
   .expertise {
-    position: relative;
-    overflow: auto;
+    position: absolute;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 3vh;
-    height: 100vh;
+    margin-top: 10vh;
+    height: auto;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .blog {
-    position: relative;
-    overflow: auto;
+    position: absolute;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 3vh;
-    height: 100vh;
+    margin-top: 10vh;
+    height: auto;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .work {
-    position: relative;
-    overflow: auto;
+    position: absolute;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 3vh;
-    height: 100vh;
+    margin-top: 10vh;
+    height: auto;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    height: 40vw;
-    width: 65vw;
+    height: 50vw;
+    width: 80vw;
     margin-bottom: 3vh;
     text-align: center;
   }
 
   .card img {
-    height: 40vw;
-    width: 65vw;
+    height: 50vw;
+    width: 80vw;
   }
 
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-  .card .container {
-    padding: 2px 16px;
   }
 
   #mySidebar {

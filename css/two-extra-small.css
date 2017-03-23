@@ -18,27 +18,11 @@
     display: none;
   }
 
-  .header-hamburger {
+  .navbar {
+    /*border: 1px solid red;*/
+    height: 10vh;
+    width: 100vw;
     display: none;
-    padding-top: 3vh;
-    padding-left: 83vw;
-    position: absolute;
-  }
-
-  .header-hamburger-line {
-    height: 2vw;
-    width: 13vw;
-    background-color: #40e0d0;
-    border-radius: 5px;
-    margin-bottom: 1vh;
-  }
-
-  .content {
-    width: 80vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    height: 100vh;
-    text-align: center;
   }
 
   .home {
@@ -56,88 +40,110 @@
     text-align: center;
   }
 
-  .navbar {
-    /*border: 1px solid red;*/
-    height: 10vh;
-    width: 100vw;
-    display: none;
-  }
-
   .about {
+    position: absolute;
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 10vh;
+    height: auto;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .expertise {
+    position: absolute;
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 10vh;
+    height: auto;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .blog {
+    position: absolute;
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 10vh;
+    height: auto;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
-  .work {
+  ..work {
+    position: absolute;
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 10vh;
+    height: auto;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    height: 40vw;
-    width: 65vw;
+    height: 50vw;
+    width: 80vw;
     margin-bottom: 3vh;
     text-align: center;
   }
 
   .card img {
-    height: 40vw;
-    width: 65vw;
+    height: 50vw;
+    width: 80vw;
   }
 
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
-  .card .container {
-    padding: 2px 16px;
-  }
-
-  .sidenav {
-    /*border: 1px solid black;*/
-    width: 40vw;
-    padding-top: 30vh;
-    padding-left: 30vw;
-    padding-right: 30vw;
+  #mySidebar {
+    background-color: #40e0d0;
+    width: 80vw;
+    display: -webkit-flex;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
     z-index: 1;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
-  .sidenav a {
-    color: black;
-    padding-bottom: 20px;
+  .nav-up {
+    top: -8vh;
+  }
+
+  header {
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+  }
+
+  #mySidebar a {
+    /*border: 1px solid black;*/
+    color: white;
     text-decoration: none;
-    font-size: 7vw;
-    display: block;
+    font-weight: bold;
+    font-size: 3vh;
     transition: 0.3s;
-    letter-spacing: 3px;
     font-family: 'Cormorant Garamond', serif;
+    padding-top: 4vw;
   }
 
-  .sidenav a:hover {
+  #mySidebar a:hover {
     color: #40e0d0;
     cursor: pointer;
     cursor: hand;
   }
 
   .contact-button {
-    /*border: 1px solid black;*/
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    width: 40vw;
-    padding-left: 30vw;
-    padding-right: 30vw;
+    padding-top: 5vh;
     padding-bottom: 10vh;
   }
 
@@ -169,22 +175,10 @@
   /* ========== footer ========== */
 
   .footer {
+    /*position: relative;*/
+    bottom: 8;
     background-color: #40E0D0;
     height: 92vh;
-  }
-
-  .footer-hamburger {
-    padding-top: 3vh;
-    padding-left: 83vw;
-    position: absolute;
-  }
-
-  .footer-hamburger-line {
-    height: 2vw;
-    width: 13vw;
-    background-color: white;
-    border-radius: 5px;
-    margin-bottom: 1vh;
   }
 
   .row-1 {
@@ -210,7 +204,7 @@
   .row-2 {
     position: relative;
     display: inline-block;
-    margin-top: 6vh;
+    margin-top: 9vh;
     margin-bottom: 3vh;
   }
 
@@ -291,7 +285,7 @@
     text-align: center;
   }
 
-  .form-button {
+  .button {
     margin-top: 2vh;
     font-size: 5vh;
     font-size: 8vw;
@@ -318,6 +312,7 @@
   .sub-footer {
     background-color: white;
     height: 8vh;
+    /*position: relative;*/
   }
 
   .sub-footer-row-1 {
