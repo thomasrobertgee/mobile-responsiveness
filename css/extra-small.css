@@ -18,21 +18,6 @@
     display: none;
   }
 
-  .header-hamburger {
-    /*display: none;*/
-    padding-top: 3vh;
-    padding-left: 83vw;
-    position: fixed;
-  }
-
-  .header-hamburger-line {
-    height: 2vw;
-    width: 13vw;
-    background-color: #40e0d0;
-    border-radius: 5px;
-    margin-bottom: 1vh;
-  }
-
   .navbar {
     /*border: 1px solid red;*/
     height: 10vh;
@@ -56,15 +41,16 @@
   }
 
   .about {
-    position: relative;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    /*overflow: auto;*/
+    /*-webkit-overflow-scrolling: touch;*/
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 3vh;
-    height: 100vh;
+    margin-top: 10vh;
+    height: auto;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   .expertise {
@@ -122,32 +108,34 @@
     padding: 2px 16px;
   }
 
-  .sidenav {
-    /*border: 1px solid black;*/
-    width: 40vw;
-    padding-top: 30vh;
-    padding-left: 30vw;
-    padding-right: 30vw;
+  #mySidebar {
+    height: 8vh;
+    background-color: #40e0d0;
+    width: 80vw;
+    display: -webkit-flex;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    position: fixed;
     z-index: 1;
-    display: none;
+    top: 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    transition: top 0.2s ease-in-out;
   }
 
-  .sidenav a {
-    color: black;
-    padding-bottom: 20px;
+  #mySidebar a {
+    /*border: 1px solid black;*/
+    color: white;
     text-decoration: none;
-    font-size: 7vw;
-    display: block;
+    font-weight: bold;
+    font-size: 3vh;
     transition: 0.3s;
-    letter-spacing: 3px;
     font-family: 'Cormorant Garamond', serif;
+    padding-top: 4vw;
   }
 
-  .sidenav a:hover {
+  #mySidebar a:hover {
     color: #40e0d0;
     cursor: pointer;
     cursor: hand;
@@ -186,7 +174,7 @@
   /* ========== footer ========== */
 
   .footer {
-    position: relative;
+    /*position: relative;*/
     bottom: 8;
     background-color: #40E0D0;
     height: 92vh;
@@ -215,7 +203,7 @@
   .row-2 {
     position: relative;
     display: inline-block;
-    margin-top: 6vh;
+    margin-top: 9vh;
     margin-bottom: 3vh;
   }
 
@@ -323,7 +311,7 @@
   .sub-footer {
     background-color: white;
     height: 8vh;
-    position: relative;
+    /*position: relative;*/
   }
 
   .sub-footer-row-1 {
