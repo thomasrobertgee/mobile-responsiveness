@@ -12,15 +12,6 @@
     width: 25vh;
   }
 
-  .content {
-    /*border: 1px solid black;*/
-    margin-left: 5vw;
-    margin-top: 5vh;
-    width: 65vw;
-    height: 80vh;
-    margin-bottom: 10vh;
-  }
-
   .home {
     display: block;
     height: 100%;
@@ -37,6 +28,16 @@
   .navbar {
     height: 10vh;
     width: 25vw;
+  }
+
+  .about {
+    /*border: 1px solid black;*/
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 7vh;
+    width: 65vw;
+    height: 80vh;
+    margin-bottom: 10vh;
   }
 
   .about section {
@@ -131,7 +132,7 @@
     min-height: 30px;
     width: 15vw;
     text-align: center;
-    color: #40e0d0
+    color: #40e0d0;
   }
 
   .contact-button button:hover {
@@ -141,33 +142,6 @@
     cursor: pointer;
     cursor: hand;
   }
-
-  /*footer
-
-  h1 {
-    font-size: 2.2em;
-  }
-
-  h2 {
-    font-size: 2.0em;
-  }
-
-  h3 {
-    font-size: 1.8em;
-  }
-
-  h4 {
-    font-size: 1.6em;
-  }
-
-  h5 {
-    font-size: 1.4em;
-  }
-
-  p {
-    font-size: 1.2em;
-  }
-
 
   /* ========== footer ========== */
 
@@ -265,13 +239,16 @@
   }
 
   .button {
-    background-color: white;
-    width: 294px;
-    height: 35px;
-    border-radius: 3px;
-    border: 1px solid grey;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-size: 3vh;
+    font-size: 3vw;
+    background: #40e0d0;
+    border: 2px solid white;
+    transition: 0.3s;
+    height: 8vh;
+    min-height: 30px;
+    width: 15vw;
+    text-align: center;
+    color: white;
   }
 
   .button:hover {
@@ -286,6 +263,7 @@
   /* ========== sub-footer ========== */
   .sub-footer {
     background-color: white;
+    height: 8vh;
   }
 
   .sub-footer-row-1 {
@@ -317,5 +295,5 @@
   .sub-footer-row-2 ul li a {
     color: #40E0D0;
     text-decoration: none;
-  };*/
+  }
 }
