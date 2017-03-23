@@ -58,6 +58,7 @@
   .about {
     position: relative;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
