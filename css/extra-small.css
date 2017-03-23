@@ -7,8 +7,10 @@
   #xl { display: none }
   #xxl { display: none }
 
-  .mobile-landing {
-    height: 100vh;
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
   #logo {
@@ -19,7 +21,6 @@
   }
 
   .navbar {
-    /*border: 1px solid red;*/
     height: 10vh;
     width: 100vw;
     display: none;
@@ -41,45 +42,41 @@
   }
 
   .about {
-    position: absolute;
+    flex: 1;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 10vh;
-    height: auto;
+    margin-top: 8vh;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
   }
 
   .expertise {
-    position: absolute;
+    flex: 1;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 10vh;
-    height: auto;
+    margin-top: 8vh;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
   }
 
   .blog {
-    position: absolute;
+    flex: 1;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 10vh;
-    height: auto;
+    margin-top: 8vh;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
   }
 
   .work {
-    position: absolute;
+    flex: 1;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 10vh;
-    height: auto;
+    margin-top: 8vh;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
   }
@@ -102,18 +99,6 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
-  #mySidebar {
-    background-color: #40e0d0;
-    width: 80vw;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    z-index: 1;
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-
   .nav-up {
     top: -8vh;
   }
@@ -125,8 +110,28 @@
     transition: top 0.2s ease-in-out;
   }
 
+  #mySidebar {
+    background-color: #40e0d0;
+    width: 80vw;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    z-index: 1;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }.nav-up {
+    top: -8vh;
+  }
+
+  header {
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+  }
+
   #mySidebar a {
-    /*border: 1px solid black;*/
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -175,15 +180,12 @@
   /* ========== footer ========== */
 
   .footer {
-    /*position: relative;*/
-    bottom: 8;
     background-color: #40E0D0;
     height: 92vh;
   }
 
   .row-1 {
     display: none;
-    /*border: 1px solid blue;*/
     width: 30vw;
     float: left;
     padding-left: 10vw;
@@ -265,7 +267,6 @@
     width: 180px;
     height: 30px;
     margin: 0 0 10px 0;
-    /*padding: 2px 0 2px 12px;*/
     font-size: 14px;
     background-color: white;
     border: 1px solid grey;
@@ -276,8 +277,6 @@
     outline: 0px !important;
     width: 80vw;
     height: 10vh;
-    /*padding: 4px 0 0 12px;*/
-    /*margin: 0 0 5px 0;*/
     font-size: 14px;
     border: 1px solid grey;
     resize: none;
@@ -312,7 +311,6 @@
   .sub-footer {
     background-color: white;
     height: 8vh;
-    /*position: relative;*/
   }
 
   .sub-footer-row-1 {

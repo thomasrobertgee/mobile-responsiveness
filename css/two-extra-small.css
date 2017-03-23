@@ -8,7 +8,7 @@
   #xxl { display: none }
 
   .mobile-landing {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   #logo {
@@ -41,7 +41,7 @@
   }
 
   .about {
-    position: absolute;
+    position: relative;
     width: 80vw;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -73,7 +73,7 @@
     font-family: 'Cormorant Garamond', serif;
   }
 
-  ..work {
+  .work {
     position: absolute;
     width: 80vw;
     padding-left: 10vw;
@@ -175,7 +175,7 @@
   /* ========== footer ========== */
 
   .footer {
-    /*position: relative;*/
+    position: relative;
     bottom: 8;
     background-color: #40E0D0;
     height: 92vh;
@@ -312,7 +312,7 @@
   .sub-footer {
     background-color: white;
     height: 8vh;
-    /*position: relative;*/
+    position: relative;
   }
 
   .sub-footer-row-1 {
