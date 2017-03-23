@@ -19,7 +19,7 @@
   }
 
   .header-hamburger {
-    /*display: none;*/
+    display: none;
     padding-top: 3vh;
     padding-left: 83vw;
     position: absolute;
