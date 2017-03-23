@@ -109,18 +109,25 @@
   }
 
   #mySidebar {
-    height: 8vh;
     background-color: #40e0d0;
     width: 80vw;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    position: fixed;
     z-index: 1;
-    top: 0;
     padding-left: 10vw;
     padding-right: 10vw;
+  }
+
+  .nav-up {
+    top: -8vh;
+  }
+
+  header {
+    height: 8vh;
+    position: fixed;
+    top: 0;
     transition: top 0.2s ease-in-out;
   }
 
