@@ -15,7 +15,7 @@
   </head>
   <body>
 
-    <div class="mobile-landing" id="mobile-landing">
+    <div class="container" id="container">
 
       <div id="myNavbar" class="navbar">
         <a href="index.html">
@@ -24,16 +24,16 @@
       </div>
 
       <header class="nav-down" id="mySidebar">
+        <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="expertise.html">Process</a>
-        <a href="work.html">Work</a>
+        <a href="process.html">Process</a>
+        <a data-scroll href="#mySidebar">Work</a>
         <a href="blog.html">Blog</a>
       </header>
 
       <div class="work">
 
         <h1>Work</h1>
-
         <div class="card">
           <a href="http://murmuring-garden-62590.herokuapp.com">
             <img src="css/images/melbit.png" alt="Melbit">
@@ -75,79 +75,78 @@
 
       </div>
 
-    </div>
+      <div class="footer-both">
+        <div class="footer" id="footer-link">
 
-
-<!-- Footer -->
-
-    <div class="footer" id="footer-link">
-
-      <div class="row-1">
-        <ul>
-          <li><a href="about.html">ABOUT US</a></li>
-          <li><a href="expertise.html">EXPERTISE</a></li>
-          <li><a href="work.html">WORK</a></li>
-          <li><a href="blog.html">BLOG</a></li>
-        </ul>
-      </div>
-
-      <div class="row-2">
-        <ul>
-          <li class="to-the-right">FOLLOW</li>
-          <li>
-            <a href="https://www.twitter.com"><img class="twitter" src="css/images/twitter.svg" width="60" height="60" alt=""></a>
-            <a href="https://www.instagram.com"><img class="instagram" src="css/images/instagram.svg" width="60" height="60" alt=""></a>
-            <a href="https://www.linkedin.com"><img class="linkedin" src="css/images/linkedin.svg" width="60" height="60" alt=""></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="row-3">
-        <ul>
-          <div class="form-title" id="contact-form">
-            <li>GET IN TOUCH</li>
-          </div>
-        </ul>
-
-        <form class="form" action="/form.php" method="post" enctype="multipart/form-data">
-
-          <div class="form-left">
-            <input class="input" type="text" name="name" required="required" placeholder="Name" autocomplete="off" >
-            <br>
-            <input class="input" type="text" name="email" required="required" placeholder="Email" autocomplete="off">
-            <br>
-            <input class="input" type="text" name="phone-number" required="required" placeholder="Contact Number" autocomplete="off">
-            <br>
-            <input class="input" type="text" name="subject" required="required" placeholder="Subject" autocomplete="off">
+          <div class="row-1">
+            <ul>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="process.html">process</a></li>
+              <li><a href="work.html">WORK</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+            </ul>
           </div>
 
-          <div class="form-right">
-            <textarea id="input-message-text" type="text" name="message-text" required="required" placeholder="Tell us a bit about yourself and what we can do for you.." ></textarea>
-            <br>
-            <button type="button" class="button">s e n d</button>
+          <div class="row-2">
+            <ul>
+              <li class="to-the-right">FOLLOW</li>
+              <li>
+                <a href="https://www.twitter.com"><img class="twitter" src="css/images/twitter.svg" width="60" height="60" alt=""></a>
+                <a href="https://www.instagram.com"><img class="instagram" src="css/images/instagram.svg" width="60" height="60" alt=""></a>
+                <a href="https://www.linkedin.com"><img class="linkedin" src="css/images/linkedin.svg" width="60" height="60" alt=""></a>
+              </li>
+            </ul>
           </div>
-        </form>
+
+          <div class="row-3">
+            <ul>
+              <div class="form-title" id="contact-form">
+                <li>GET IN TOUCH</li>
+              </div>
+            </ul>
+
+            <form class="form" action="/form.php" method="post" enctype="multipart/form-data">
+
+              <div class="form-left">
+                <input class="input" type="text" name="name" required="required" placeholder="Name" autocomplete="off" >
+                <br>
+                <input class="input" type="text" name="email" required="required" placeholder="Email" autocomplete="off">
+                <br>
+                <input class="input" type="text" name="phone-number" required="required" placeholder="Contact Number" autocomplete="off">
+                <br>
+                <input class="input" type="text" name="subject" required="required" placeholder="Subject" autocomplete="off">
+              </div>
+
+              <div class="form-right">
+                <textarea id="input-message-text" type="text" name="message-text" required="required" placeholder="Tell us a bit about yourself and what we can do for you.." ></textarea>
+                <br>
+                <button type="button" class="button">s e n d</button>
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+        <div class="sub-footer">
+          <div class="sub-footer-row-1">
+            <ul>
+              <li>©BLT DESIGNS 2017</li>
+            </ul>
+          </div>
+          <div class="sub-footer-row-2">
+            <ul>
+              <li><a href="">PRIVACY POLICY</a></li>
+              <li>|</li>
+              <li><a href="">TERMS OF SERVICE</a></li>
+            </ul>
+          </div>
+        </div>
+
       </div>
 
     </div>
-
-    <div class="sub-footer">
-
-      <div class="sub-footer-row-1">
-        <ul>
-          <li>©BLT DESIGNS 2017</li>
-        </ul>
-      </div>
-
-      <div class="sub-footer-row-2">
-        <ul>
-          <li><a href="">PRIVACY POLICY</a></li>
-          <li>|</li>
-          <li><a href="">TERMS OF SERVICE</a></li>
-        </ul>
-      </div>
-    </div>
-<!-- End footer -->
 
     <script>
     	smoothScroll.init();
